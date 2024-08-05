@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Dad Ice Creams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ef7076467.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="overflow: hidden;">
+    
+    <section style="display: flex;justify-content: center;align-items: center;height:100vh;" class="load" id="loads" >
+        <div class="loader"></div>
+    </section>
+    <ul class="sci" id="contentList">
+        <li  class="element"><a id="prevBtn" style="display: none;"><img src="./icons/up.png"></a></li>
+        <li  class="element"><a href="https://www.facebook.com/Rich Dadindia"><img src="./icons/fb.png"></a></li>
+        <li  class="element"><a href="https://twitter.com/Rich Dadindia"><img src="./icons/tweet.png"></a></li>
+        <li  class="element"><a href="https://www.instagram.com/Rich Dadindia/"><img src="./icons/insta.png"></a></li>
+        <li  class="element"><a id="nextBtn" ><img src="./icons/down.png"></a></li>
+        
+    </ul>
+    <nav style="display: none;">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+
+        <label class="logo"><img src="https://media.licdn.com/dms/image/D4E0BAQFMFa1Oq_78rQ/company-logo_200_200/0/1685776022364/rich_dad_premium_ice_creams_logo?e=1724889600&amp;v=beta&amp;t=8SVxIp_GTPtZa7OtGXtLOZg4n5euwaZudehum-2lCc4"></label>
+    <ul>
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#menu" onclick="closeMenu()" >Menu</a></li>
+        <li><a onclick="closeMenu()" >FAQs</a></li>
+        <li><a onclick="closeMenu()" >Contact</a></li>
+    </ul>
+    </nav>
+    <section style="height:100vh;width:90%;">
+    <div id="home" class="content1">
+        <div class="textBox">
+            <h2>The Taste of Richness..!!<br><span id="span1" style="font-size: 1.2em;font-weight: 900;animation: changeFont 1s;animation-delay: 5s;">Rich Dad</span></h2>
+            <p><span id="span1" style="font-weight: 450;">Rich Dad Ice Creams</span> : This is an ice cream brand from <span style="color: rgb(3, 192, 3);">Thrissur</span> based <span style="color:rgb(50, 114, 235);">Elanadu Milk</span>.<br>A premium ice cream brand hailing from Elanadu Milk in Thrissur. Known for its exceptional quality and flavours, Rich Dad Ice Cream offers a delightful experience for those with discerning tastes and experience the rich and creamy goodness.</p>
+            <a id="btn" href="https://www.starbucks.in/rewards">Know More</a>
+        </div>
+    </div>
+    <div class="imgBox">
+        <img src="./vanila.png" class="starbucks" id="starbucks">
+    </div>
+    <ul class="thumb" id="thumbList">
+        <li class="element"><img id="van" src="https://rdic.netlify.app/vanila.png" onmouseover="imgSlider('https://rdic.netlify.app/vanila.png');"></li>
+        <li class="element"><img id="choco" src="https://rdic.netlify.app/choco.png" onmouseover="imgSlider('https://rdic.netlify.app/choco.png')"></li>
+        <li class="element"><img id="straw" src="https://rdic.netlify.app/straw.png" onmouseover="imgSlider('https://rdic.netlify.app/straw.png')"></li>
+        <li class="element"><img id="mango" src="https://rdic.netlify.app/mango.png" onmouseover="imgSlider('https://rdic.netlify.app/mango.png')"></li>
+        <li class="element"><img id="butter" src="https://rdic.netlify.app/butter1.png" onmouseover="imgSlider('https://rdic.netlify.app/butter1.png')"></li>
+        <li class="element"><img id="coco" src="https://rdic.netlify.app/coco.png" onmouseover="imgSlider('https://rdic.netlify.app/coco.png')"></li>
+        <li class="element"><img id="pista" src="https://rdic.netlify.app/pista.png" onmouseover="imgSlider('https://rdic.netlify.app/pista.png')"></li>
+        <li class="element"><img id="chik" src="https://rdic.netlify.app/chikko2.png" onmouseover="imgSlider('https://rdic.netlify.app/chikko2.png')"></li>
+        <li class="element"><img id="rose" src="https://rdic.netlify.app/rose.png" onmouseover="imgSlider('https://rdic.netlify.app/rose.png')"></li>
+        <li class="element"><img id="span" src="https://rdic.netlify.app/span1.png" onmouseover="imgSlider('https://rdic.netlify.app/span1.png')"></li>
+    </ul>
+</section>
+
+    <section id="menu" class="sec2">
+        <span>Menu</span>
+        <div class="class_container">
+            <div class="card">
+                <img src="https://rdic.netlify.app/vanila.png">
+                <div class="content">
+                    <p class="heading">Vanilla</p>
+                   
+                  </div>
+            </div>
+                <div class="card">
+                    <img src="https://rdic.netlify.app/choco.png">
+                    <div class="content">
+                        <p class="heading">Chocolate</p>
+                       
+                      </div></div>
+                    <div class="card">
+                        <img src="https://rdic.netlify.app/straw.png">
+                        <div class="content">
+                            <p class="heading">Strawberry</p>
+                           
+                          </div>
+                    </div>
+                        <div class="card">
+                            <img src="https://rdic.netlify.app/mango.png">
+                            <div class="content">
+                                <p class="heading">Alphonso Mango</p>
+                               
+                              </div>
+                        </div>
+                            <div class="card">
+                                <img src="https://rdic.netlify.app/butter1.png">
+                                <div class="content">
+                                    <p class="heading">Butterscotch</p>
+                                   
+                                  </div>
+                            </div>
+                                <div class="card">
+                                    <img src="https://rdic.netlify.app/coco.png">
+                                    <div class="content">
+                                        <p class="heading">Tender Coconut</p>
+                                       
+                                      </div>
+                                </div>
+                                    <div class="card">
+                                        <img src="https://rdic.netlify.app/pista.png">
+                                        <div class="content">
+                                            <p class="heading">Pista</p>
+                                           
+                                          </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="https://rdic.netlify.app/chikko2.png">
+                                            <div class="content">
+                                                <p class="heading">Chikko</p>
+                                               
+                                              </div></div>
+                                            <div class="card">
+                                                <img src="https://rdic.netlify.app/rose.png">
+                                                <div class="content">
+                                                    <p class="heading">Rosalina</p>
+                                                   
+                                                  </div></div>
+                                                <div class="card">
+                                                    <img src="https://rdic.netlify.app/span1.png">
+                                                    <div class="content">
+                                                        <p class="heading">Spanish Delight</p>
+                                                       
+                                                      </div></div>
+                                                      <div class="card">
+                                                        <img src="./download-removebg-preview.png" style="background:transparent;">
+                                                        <div class="content">
+                                                            <p class="heading">Ice Candies</p>
+                                                           
+                                                          </div></div>
+       
+        </div>
+
+    </section>
+    <section id="s2" class="s2">
+        <img src="./banner.jpg">
+    </section>
+    <div id="cng" class="order" style="transition: background-color 1s ease;height: 100%;width:100%;display:flex;background:rebeccapurple;flex-direction: column;align-items: center;">
+        <h2 id="h21" style="font-size: 2em;font-weight: 900;color: white;word-spacing: 5px;margin: -7px 10px 10px 15px;padding-top: 25px;"><span>Interested in Bulk Orders or Becoming a Distributor ?</span></h2>
+        <p id="p1" style="word-spacing: 5px;margin: 10px 10px 10px 15px;padding-top: 25px;color: white;padding-bottom: 50px;">Click the button below to learn more about bulk ordering options or to make a distributor enquiry for our premium ice cream brand. We look forward to partnering with you !</p>
+        <button id="btn21" class="button" onclick="showForm()">Order Now<i class="fa-solid fa-cart-shopping icon"></i>
+          </button>
+          <br>
+          <form id="contact-form" class="contact-form hidden" style="border-radius: 10px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);padding: 20px;max-width: 400px;width: 100%;flex-direction: column;align-items: center;">
+            <input type="text" placeholder="Name" spellcheck="false" required>
+            <input type="text" placeholder="Phone Number" required>
+            <input type="email" placeholder="Email ID" spellcheck="false" required>
+            <textarea placeholder="Location" spellcheck="false" required></textarea>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="options" value="cup"> Cup</label>
+                <label><input type="checkbox" name="options" value="cone"> Cone</label>
+                <label><input type="checkbox" name="options" value="ice-candies"> Ice Candies</label>
+            </div>
+            <button type="submit">Submit</button>
+        
+          </form>
+            
+           
+    </div>
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                
+                <p>A premium ice cream brand hailing from Elanadu Milk in Thrissur. Known for its exceptional quality and flavours, Rich Dad Ice Cream offers a delightful experience for those with discerning tastes and experience the rich and creamy goodness.</p>
+                <ul class="sci1">
+                    <li class="element">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="element">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="element">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="element">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Shop</h2>
+                <ul>
+                    <li><a href="">Cups</a></li>
+                <li><a href="">Cones</a></li>
+                <li><a href="">Ice Candies</a></li>
+                </ul>
+                
+            </div>
+            <div class="sec contact">
+             <h2>Contact Us</h2>   
+             <ul class="info">
+                <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <p><a href="">Phone No</a></p>
+                    
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <p><a href="">Mail Id</a></p>
+                </li>
+             </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p>Made with <i class="fa-solid fa-heart"></i> by <a  style="cursor:pointer;" href="https://prajesh.netlify.app"><span>Prajesh</span></a></p>
+    </div>
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
